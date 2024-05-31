@@ -14,8 +14,15 @@
 <body>
     <div id=wrapper>
         <h1>Ajouter produit</h1>
+        <a href="recap.php">Aller au recap</a>
         
     </div>    
 
 </body>
 </html>
+
+<?php
+
+$content = ob_get_clean();
+
+require_once "template.php"; ?>
